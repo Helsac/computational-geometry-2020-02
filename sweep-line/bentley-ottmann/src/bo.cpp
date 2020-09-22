@@ -9,10 +9,7 @@
 	* No hay líneas verticales
 	* No hay segmentos que se solapan (ie: todo par de segmentos paralelos no se intersecan).
 	* No hay intersecciones en los extremos de los segmentos
-
-	Comentarios:
-	* A diferencia del algoritmo visto en clase, mi implementación barre de izquierda a derecha 
-	  y mantiene el status ordenado por Y.
+	
 */
 
 #include <cmath>

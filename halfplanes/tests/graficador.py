@@ -13,12 +13,13 @@ def get_points(): #leer puntos
 	f.close()
 		
 def get_chull(): #leer puntos del poligono convexo
-	f = open("poly.txt", "r")
+	f = open("in.txt", "r")
+	n = int(f.readline().strip().split()[0])
 	n = int(f.readline().strip().split()[0])
 	x = []
 	y = []
 	for i in range(n):
-		a, b = [float(x) for x in f.readline().strip().split()]
+		a, b = [int(x) for x in f.readline().strip().split()]
 		x.append(a)
 		y.append(b)
 	f.close()
